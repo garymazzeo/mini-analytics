@@ -1,0 +1,22 @@
+# Real config holds DB credentials, IP_SALT and STATS_PASSWORD.
+# Keep a placeholder-only config.example.php in git instead.
+config.php
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and local database dumps
+*.log
+*.sql.gz
+dump*.sql
+backup*.sql
+
+# Local PHP tooling (if ever added)
+/vendor/
+.phpunit.result.cache
+.env
